@@ -37,6 +37,8 @@ end
 puts deluxe_curfew_checker (9)
 
 def platinum_curfew_checker(current_time, curfew_time)
-  if current_time,curfew_time == 11, 11 
+  if current_time == curfew_time  
     "Time to apparate!"
+  elsif  
+  end  
 end
