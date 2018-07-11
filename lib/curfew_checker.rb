@@ -29,8 +29,8 @@ def deluxe_curfew_checker(time)
     "You're in trouble! Better get home quick!"
   else  
   curfew = 11
-  puts time - curfew 
-  puts "You have #{curfew} hour(s) left to keep having fun!"
+  a = time - curfew 
+  puts "You have #{a} hour(s) left to keep having fun!"
   end  
 end
 
