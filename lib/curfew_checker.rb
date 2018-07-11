@@ -39,6 +39,9 @@ puts deluxe_curfew_checker (9)
 def platinum_curfew_checker(current_time, curfew_time)
   if current_time == curfew_time  
     "Time to apparate!"
-  elsif  
+  elsif current_time > curfew_time
+    "You're in trouble! Better get back to Hogwarts qucik!"
+  else
+    ""
   end  
 end
